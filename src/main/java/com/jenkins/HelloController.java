@@ -10,4 +10,11 @@ public class HelloController {
     public String sayHello(){
         return "jenkins integration example sample";
     }
+
+    @GetMapping(value = "/")
+    public String greeting(){
+        return "greeting....";
+    }
+
+
 }
